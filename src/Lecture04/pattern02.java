@@ -1,13 +1,14 @@
 package Lecture04;
-
-public class pattern02 {
+import java.util.*;
+public class pattern02{
     public static void main(String[] args) {
-        int n=4;
-        int m=5;
+        Scanner sc= new Scanner(System.in);
+        int row= sc.nextInt();
+        int column = sc.nextInt();
 
-        for(int i=1; i<=n; i++){
-            for(int j=1; j<=m ;j++){
-                if(i==1 || j==1 || i==n || j ==m){
+        for(int i=1; i<=row; i++){
+            for(int j=1; j<=column ;j++){
+                if(i==1 || j==1 || i==row || j ==column){
                     System.out.print("*");
                 } else{
                     System.out.print(" ");
