@@ -11,7 +11,6 @@ public class pattern08 {
                 System.out.print(num + " ");
                 num++;
             }
-
             System.out.println();
         }
     }
