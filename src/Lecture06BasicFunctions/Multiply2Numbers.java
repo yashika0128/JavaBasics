@@ -1,4 +1,4 @@
-package Lecture06;
+package Lecture06BasicFunctions;
 import java.util.*;
 public class Multiply2Numbers {
     public static int MultiplyNums(int a,int b){

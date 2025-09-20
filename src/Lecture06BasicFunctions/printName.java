@@ -1,4 +1,4 @@
-package Lecture06;
+package Lecture06BasicFunctions;
 
 import java.util.Scanner;
 

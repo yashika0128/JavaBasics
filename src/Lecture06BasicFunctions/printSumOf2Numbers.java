@@ -1,4 +1,4 @@
-package Lecture06;
+package Lecture06BasicFunctions;
 import java.util.*;
 public class printSumOf2Numbers {
     public static int SumOfNum(int a, int b){
