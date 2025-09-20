@@ -1,4 +1,4 @@
-package Lecture05;
+package Lecture05AdvancePatterns;
 import java.util.*;
 public class pattern14 {
     public static void main(String[] args) {
