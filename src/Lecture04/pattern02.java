@@ -16,5 +16,6 @@ public class pattern02{
             }
             System.out.println();
         }
+
     }
 }
