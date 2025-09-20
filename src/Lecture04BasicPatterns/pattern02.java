@@ -1,4 +1,4 @@
-package Lecture04;
+package Lecture04BasicPatterns;
 import java.util.*;
 public class pattern02{
     public static void main(String[] args) {

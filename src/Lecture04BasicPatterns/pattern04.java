@@ -1,15 +1,16 @@
-package Lecture04;
+package Lecture04BasicPatterns;
 import java.util.*;
-public class pattern01 {
+public class pattern04 {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         int row= sc.nextInt();
-        int column = sc.nextInt();
-        for(int i=0; i<row ;i++){
-            for(int j=0; j<column ;j++){
+
+        for(int i=0 ;i<row; i++){
+            for(int j=row ; j>i; j--){
                 System.out.print("* ");
             }
             System.out.println();
         }
+
     }
 }
